@@ -44,13 +44,7 @@ body{
 
 }
 
-.image-chat{
 
-
-
-
-
-}
 
 .chat-main{
 
@@ -152,6 +146,22 @@ body{
 
 }
 
+@media screen and (max-width: 991px){
+    
+    
+    
+    .message{
+
+        transform: scale(80%);
+        margin-top: 1px;
+
+
+
+
+    }
+
+}
+
 @media screen and (max-width: 767px){
     
     .chat-user{ 
@@ -170,10 +180,20 @@ body{
 
     
         width: 80px;
-
+       
 
     }
     
+    .message{
+
+        transform: scale(80%);
+        margin-top: 1px;
+
+
+
+
+    }
+
 }
 
 @media screen and (max-width: 500px){
@@ -190,7 +210,30 @@ body{
 
     }
 
-    
+    .nickname > h2{ 
+
+        font-size: medium;
+
+
+
+    }
+
+    .nickname > p{ 
+
+        
+        font-size: smaller;
+
+
+    }
+
+    .send-button{ 
+
+        
+        size: 100%;
+        
+
+
+    }
 }
 
 @media screen and (max-width: 375px){
