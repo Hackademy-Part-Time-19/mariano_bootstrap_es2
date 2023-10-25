@@ -11,10 +11,9 @@ body{
 .chat-menu{
 
     background-color: rgb(24, 24, 24);
-    height: 80vh;
+   
+    height: 80%;
     
-    display: flex;
-    flex-direction: column;
     overflow:scroll;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
@@ -45,12 +44,19 @@ body{
 
 }
 
+.image-chat{
+
+
+
+
+
+}
+
 .chat-main{
 
     background-color: rgb(77, 77, 77);
     height: 80vh;
-    display: flex;
-    flex-direction: column;
+    
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
     
@@ -153,6 +159,13 @@ body{
 
     }
 
+    .image-chat{
+
+    
+        width: 80px;
+
+
+    }
     
 }
 
@@ -165,8 +178,8 @@ body{
         font-size: 0;
         margin-top: 30px;  
         position: relative;
-        right: 80%;
-        
+        right: 45%;
+        size: 1%;
 
     }
 
@@ -180,12 +193,18 @@ body{
         position: relative;
         justify-self: center;
         font-size: 0;
-        margin-top: 30px;  
+        
         position: relative;
-        right: 100%;
+        right: 55%;
         
 
     }
 
+    .image-chat{
+
     
+        width: 60px;
+
+
+    }
 }
