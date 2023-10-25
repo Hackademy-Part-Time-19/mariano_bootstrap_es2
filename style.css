@@ -125,6 +125,13 @@ body{
 
 
 }
+
+.chat-messages::-webkit-scrollbar {
+
+    display: none;
+
+
+}
 :hover.chat-user{
 
     color: black;
